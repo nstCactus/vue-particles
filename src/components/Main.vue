@@ -8,10 +8,7 @@
 npm install vue-particles --save-dev
               </code>
      </pre>
-
     <br>
-
-
     <div class="wrap-code text-left">
       <h4 class="white">
         Main.js file
@@ -32,7 +29,6 @@ Vue.use(VueParticles)
         </code></pre>
     </div>
     <br>
-
     <div class="wrap-code text-left">
       <h4 class="white">
         App.vue file - Full example
@@ -42,13 +38,11 @@ Vue.use(VueParticles)
         </code></pre>
     </div>
     <br>
-
     <div class="wrap-table">
       <h4 class="white text-left">
        Props
       </h4>
       <table class="rwd-table">
-
         <thead>
           <tr>
             <th>Name</th>
@@ -57,7 +51,6 @@ Vue.use(VueParticles)
             <th>Description</th>
           </tr>
         </thead>
-
         <tr>
           <td data-th="Name">color</td>
           <td data-th="Type">String</td>
@@ -177,10 +170,6 @@ Vue.use(VueParticles)
         </tr>
       </table>
     </div>
-
-
-
-
   </div>
 </template>
 <script>

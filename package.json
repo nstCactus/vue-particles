@@ -1,13 +1,14 @@
 {
   "name": "vue-particles",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "description": "Vue.js component for particles backgrounds",
-  "author": "creotip@gmail.com",
+  "author": "inbox@jakekapitz.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creotip/vue-particles/issues"
+    "url": "https://github.com/jakekapitz/vue-particles/issues"
   },
   "homepage": "http://vue-particles.netlify.com/",
+  "repository": "https://github.com/jakekapitz/vue-particles",
   "keywords": [
     "vue",
     "vuejs",

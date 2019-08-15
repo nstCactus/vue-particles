@@ -16,7 +16,7 @@
     :hoverMode="hoverMode"
     :clickEffect="clickEffect"
     :clickMode="clickMode"
-    :particlesData="particlesData"
+    :particlesConfig="particlesConfig"
   ></div>
 </template>
 <script>
@@ -84,7 +84,7 @@
         type: String,
         default: 'push'
       },
-      particlesData: {
+      particlesConfig: {
         type: Object,
         default: null
       }
@@ -109,7 +109,7 @@
           this.hoverMode,
           this.clickEffect,
           this.clickMode,
-          this.particlesData
+          this.particlesConfig
         )
       })
     },
@@ -130,9 +130,9 @@
         hoverMode,
         clickEffect,
         clickMode,
-        particlesData
+        particlesConfig
       ) {
-        if( particlesData === null ){
+        if( particlesConfig === null ){
         particlesJS('particles-js', {
           "particles": {
             "number": {
@@ -210,11 +210,9 @@
                 "mode": clickMode
               },
               "onresize": {
-
                 "enable": true,
                 "density_auto": true,
                 "density_area": 400
-
               }
             },
             "modes": {
@@ -246,10 +244,9 @@
           "retina_detect": true
         });
         } else {
-          particlesJS('particles-js', particlesData );
+          particlesJS('particles-js', particlesConfig );
         }
       }
-
     }
   }
   /* eslint-disable */
