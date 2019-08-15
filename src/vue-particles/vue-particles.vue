@@ -1,6 +1,5 @@
 <template>
   <div
-    class="particles-js"
     :id="id"
     :color="color"
     :particleOpacity="particleOpacity"
@@ -17,7 +16,7 @@
     :hoverMode="hoverMode"
     :clickEffect="clickEffect"
     :clickMode="clickMode"
-    :particlesConfig="particlesConfig"
+    :particlesconfig="particlesConfig"
   ></div>
 </template>
 <script>
@@ -250,7 +249,7 @@ export default {
           retina_detect: true
         });
       } else {
-        particlesJS("particles-js", particlesConfig);
+        particlesJS(this.id, particlesConfig);
       }
     }
   }
