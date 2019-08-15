@@ -5,8 +5,8 @@
 Generate a JSON file for use in component [here](https://vincentgarreau.com/particles.js).
 
 ## Demo and Usage
-_This is the link to the original repo -- not this updated version; the installation instructions are valid as long as you install direct from this repo instead of the npm package_
-<a href="http://vue-particles.netlify.com/" target="_blank">http://vue-particles.netlify.com/</a>
+_This is the link to the original repo -- not this updated version; the installation instructions are valid as long as you install direct from this repo instead of the npm package (e.g. `npm install git+https://git@github.com/jakekapitz/vue-particles.git --save-dev`)
+Link: [http://vue-particles.netlify.com]
 
 ### Single File Component Usage
 
